@@ -5,9 +5,6 @@
 }
 
 h2{
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     text-align: center;
     margin-top: 1.5rem;
     color: #1b2a41;
@@ -66,7 +63,7 @@ svg {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 9vh;
+    min-height: 90vh;
     flex-direction: column;
 }
 
@@ -76,7 +73,7 @@ svg {
     display: flex;
     align-items: center;
     width: 70%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     justify-content: space-between;
 }
 
@@ -92,7 +89,6 @@ svg {
     align-items: center;
     flex: 1;
     margin: 0 1%;
-    /* margin: 0rem 2rem; */
 }
 
 .controls button {
@@ -133,7 +129,6 @@ select {
     padding: 1rem;
     outline: none;
     cursor: pointer;
-    /* border: none; */
     border-radius: 0.4rem;
     margin-left: 1rem;
     font-family: 'Noto Sans Display', sans-serif;
@@ -186,7 +181,7 @@ select {
     cursor: pointer;
   }
 footer{
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
   .footer-text{
     position: fixed;
