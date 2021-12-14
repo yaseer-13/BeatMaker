@@ -62,12 +62,12 @@ class DrumKit {
         if (this.isPlaying) {
             //clearing the interval
             clearInterval(this.isPlaying);
+            //setting it to null
             this.isPlaying = null;
         } else {
             this.isPlaying = setInterval(() => {
                 // invoking the repeat method
                 this.repeat();
-                // 1s = 1000ms 
             }, interval);
         }
     }
